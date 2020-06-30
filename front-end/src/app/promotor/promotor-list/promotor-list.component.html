@@ -1,0 +1,22 @@
+<button routerLink = '/promotor-form'>Cadastrar Novo +</button>
+<div class="list">
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>Artistas</th>
+            <th>Telefone</th>
+            <th>Estrutura</th>
+            <th>Excluir</th>
+            <th>Alterar</th>
+        </thead>
+        <tr *ngFor = 'let promotor of promotor'>
+            <td>{{promotor.nome}}</td>
+            <td>{{promotor.artista}}</td>
+            <td>{{promotor.telefone}}</td>
+            <td>{{promotor.Estrutura}}</td>
+            <td><img src="../../../assets/icons/remover.png" routerLink = "" alt=""></td>
+            <td><img src="../../../assets/icons/alterar.png" routerLink = "/promotor-form" alt=""></td>
+            
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,24 @@
+<button routerLink = '/caixa-form'>Cadastrar Novo +</button>
+<div class="list">
+    <table>
+        <thead>
+            <th>Fichas</th>
+            <th>Valor</th>
+            <th>Pagamento</th>
+            <th>Troco</th>
+            <th>Ingresso</th>
+            <th>Excluir</th>
+            <th>Alterar</th>
+        </thead>
+        <tr *ngFor = 'let caixa of caixa'>
+            <td>{{caixa.pedido_fichas}}</td>
+            <td>{{caixa.vlr_recebido}}</td>
+            <td>{{caixa.forma_pag}}</td>
+            <td>{{caixa.troco}}</td>
+            <td>{{caixa.ingresso_vinc?.nome}}</td>
+            <td><img src="../../../assets/icons/remover.png" routerLink = "" alt=""></td>
+            <td><img src="../../../assets/icons/alterar.png" routerLink = "/caixa-form" alt=""></td>
+            
+        </tr>
+    </table>
+</div>

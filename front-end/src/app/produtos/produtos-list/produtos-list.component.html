@@ -1,0 +1,22 @@
+<button routerLink = '/produtos-form'>Cadastrar Novo +</button>
+<div class="list">
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>Valor</th>
+            <th>Tipo</th>
+            <th>Bar</th>
+            <th>Excluir</th>
+            <th>Alterar</th>
+        </thead>
+        <tr *ngFor = 'let produtos of produtos'>
+            <td>{{produtos.nome}}</td>
+            <td>{{produtos.vlr}}</td>
+            <td>{{produtos.tipo}}</td>
+            <td>{{produtos.barref}}</td>
+            <td><img src="../../../assets/icons/remover.png" routerLink = "" alt=""></td>
+            <td><img src="../../../assets/icons/alterar.png" routerLink = "/produtos-form" alt=""></td>
+            
+        </tr>
+    </table>
+</div>

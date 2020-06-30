@@ -1,0 +1,27 @@
+<div class="produto">
+    <form action="">
+        <label for=""> Produto  </label>
+        <input name = 'nome' [(ngModel)] = 'produtos.nome'type="text" placeholder="Digite o nome do produtos">
+        
+        <label for="valor"> Valor </label>
+        <input name = '' [(ngModel)] = 'produtos.vlr'type="text" placeholder="Digite o valor do produtos">
+        
+        
+        <label for="barref"> BAR </label>
+        <input name = '' [(ngModel)] = 'produtos.barref'type="text" placeholder="Digite o ID do BAR">
+        
+        <label for=""> Tipo de Porduto </label>
+        <select name="tipo" id="" [(ngModel)] = 'produtos.tipo'>
+            <option value="">Tipo1</option>
+            <option value="">Tipo2</option>
+            <option value="">Tipo3</option>
+        </select>
+
+        <div class = 'button' >
+            <button> SALVAR</button>
+            <button> CANCELAR</button>
+
+        </div>
+
+    </form>
+</div>

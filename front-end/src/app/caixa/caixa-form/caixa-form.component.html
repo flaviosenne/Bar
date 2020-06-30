@@ -1,0 +1,35 @@
+<div class="caixa">
+    <form action="">
+        <label for=""> Fichas </label>
+        <input name = 'pedido_fichas'type="text" placeholder="Digite a quantidade de fichas" [(ngModel)] = 'caixa.pedido_fichas'>
+        
+        <label for=""> Valor </label>
+        <input type="text" placeholder="Digite o valor recebido" [(ngModel)] = 'caixa.vlr_recebido'>
+        
+        <label for=""> Ingresso </label>
+        <select name="" id="" [(ngModel)] = 'caixa.ingresso_vinc'>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+        
+        <label for=""> Troco </label>
+        <input type="text" placeholder="Digite o valor do troco" [(ngModel)] = 'caixa.troco'>
+        
+        <label for=""> Forma de Pagamento </label>
+        <select name="" id="" [(ngModel)] = 'caixa.forma_pag'>
+            <option value="">Dinheiro</option>
+            <option value="">Cartão Credito</option>
+            <option value="">Cartão Debito</option>
+            <option value="">Cheque</option>
+        </select>
+
+        <div class = 'button' >
+            <button> SALVAR</button>
+            <button> CANCELAR</button>
+
+        </div>
+
+    </form>
+</div>

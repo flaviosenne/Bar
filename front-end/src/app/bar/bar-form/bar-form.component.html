@@ -1,0 +1,30 @@
+<div class="bar">
+    <form action="">
+        <label for=""> Produto </label>
+        <input type="text" placeholder="Digite o nome do produto" name = "produto_nome"[(ngModel)] = "bar.produto_nome">
+        
+        <label for=""> Quantidade </label>
+        <input type="number" placeholder="Digite a quantidade de produtos" name = "quantidade_produto"[(ngModel)] = 'bar.quantidade_produto'>
+        
+        <label for=""> Fichas </label>
+        <input type="number" placeholder="Digite a quantidade de fichas" name = "entrada_fichas"[(ngModel)] = 'bar.entrada_fichas'>
+        
+        <label for=""> Troco </label>
+        <input type="number" placeholder="Digite o valor do troco" name = "troco"[(ngModel)] = 'bar.troco'>
+        
+        <label for=""> Pessoas com Ingresso </label>
+        <select name="ingresso_vinc" id="" [(ngModel)] = 'bar.ingresso_vinc'>
+            <option value="5efa13ccfb51771d64dc362d">Nome1</option>
+            <option value="">Nome2</option>
+            <option value="">Nome3</option>
+        </select>
+
+        <div class = 'button' >
+            <button (click) = "cadastrar()"> SALVAR</button>
+            <button> CANCELAR</button>
+
+        </div>
+        
+    </form>
+</div>
+

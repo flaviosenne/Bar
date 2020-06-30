@@ -1,0 +1,29 @@
+.portaria{
+    display: grid;
+    width: 60%;
+    font-size: 18pt;
+    padding: 10px;
+    margin: 100px auto;
+    border: solid 1px;
+}
+
+.portaria label{
+    display: block;
+    margin: 5px 0;
+}
+.portaria input{
+    width: 90%;
+    font-size: 18pt;
+    border: none;
+    border-bottom: dotted 1px;
+    background: none;
+}
+
+.portaria .button {
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    margin: 10px;
+    font-size: 15pt;
+}

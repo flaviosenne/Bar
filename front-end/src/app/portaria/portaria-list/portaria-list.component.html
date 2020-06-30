@@ -1,0 +1,22 @@
+<button routerLink = '/portaria-form'>Cadastrar Novo +</button>
+<div class="list">
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>RG</th>
+            <th>Ingresso</th>
+            <th>Situação</th>
+            <th>Excluir</th>
+            <th>Alterar</th>
+        </thead>
+        <tr *ngFor = 'let portaria of portaria'>
+            <td>{{portaria.nome}}</td>
+            <td>{{portaria.RG}}</td>
+            <td>{{portaria.ingresso_valido}}</td>
+            <td>{{portaria.vlidado}}</td>
+            <td><img src="../../../assets/icons/remover.png" routerLink = "" alt=""></td>
+            <td><img src="../../../assets/icons/alterar.png" routerLink = "/portaria-form" alt=""></td>
+            
+        </tr>
+    </table>
+</div>

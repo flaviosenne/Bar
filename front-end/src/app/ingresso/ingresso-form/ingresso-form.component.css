@@ -1,0 +1,35 @@
+.ingresso{
+    display: grid;
+    width: 60%;
+    font-size: 18pt;
+    padding: 10px;
+    margin: 100px auto;
+    border: solid 1px;
+}
+
+.ingresso label{
+    display: block;
+    margin: 5px 0;
+}
+.ingresso input{
+    width: 90%;
+    font-size: 18pt;
+    border: none;
+    border-bottom: dotted 1px;
+    background: none;
+}
+.ingresso select{
+    margin: 10px 0;
+    font-size: 18pt;
+    width: 90%;
+    display: block;
+}
+
+.ingresso .button {
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    margin: 10px;
+    font-size: 15pt;
+}

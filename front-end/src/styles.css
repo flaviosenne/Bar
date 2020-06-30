@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+button{
+    padding: 10px;
+    width: 120px;
+    border: none;
+    background: none;
+    background: linear-gradient(to right, rgb(190, 109, 109), rgba(241, 65, 65, 0.5));
+    border: solid 1px;
+    font-size: 14pt;
+    margin-left: 80px;
+    margin-top: 70px;
+    margin-bottom: -20px;
+}
+
+.list {
+    font-size: 18pt;
+}
+.list table {
+    margin: 50px;
+    padding: 10px;
+    border: solid 1px;  
+}
+.list table thead th{
+    padding: 10px;
+
+}    
+.list td{
+    
+    padding: 10px;  
+    text-align: center;
+    margin: 10px;
+}
+img {
+    width: 30px;
+}

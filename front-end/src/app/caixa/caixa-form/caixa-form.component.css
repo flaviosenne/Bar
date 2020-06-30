@@ -1,0 +1,35 @@
+.caixa{
+    display: grid;
+    width: 60%;
+    font-size: 18pt;
+    padding: 10px;
+    margin: 100px auto;
+    border: solid 1px;
+}
+
+.caixa label{
+    display: block;
+    margin: 5px 0;
+}
+.caixa input{
+    width: 90%;
+    font-size: 18pt;
+    border: none;
+    border-bottom: dotted 1px;
+    background: none;
+}
+.caixa select{
+    margin: 10px 0;
+    font-size: 18pt;
+    width: 90%;
+    display: block;
+}
+
+.caixa .button {
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    margin: 10px;
+    font-size: 15pt;
+}

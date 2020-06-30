@@ -1,0 +1,24 @@
+<button routerLink = '/ingresso-form'>Cadastrar Novo +</button>
+<div class="list">
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>RG</th>
+            <th>Ingresso</th>
+            <th>Vaga</th>
+            <th>N° Vaga</th>
+            <th>Excluir</th>
+            <th>Alterar</th>
+        </thead>
+        <tr *ngFor = 'let ingresso of ingresso'>
+            <td>{{ingresso.nome}}</td>
+            <td>{{ingresso.RG}}</td>
+            <td>{{ingresso.tipo_ingresso}}</td>
+            <td>{{ingresso.vaga}}</td>
+            <td>{{ingresso.n_vaga}}</td>
+            <td><img src="../../../assets/icons/remover.png" routerLink = "" alt=""></td>
+            <td><img src="../../../assets/icons/alterar.png" routerLink = "/ingresso-form" alt=""></td>
+            
+        </tr>
+    </table>
+</div>

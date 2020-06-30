@@ -1,0 +1,36 @@
+.bar{
+    display: grid;
+    width: 60%;
+    font-size: 18pt;
+    padding: 10px;
+    margin: 100px auto;
+    border: solid 1px;
+    overflow: hidden;
+}
+
+.bar label{
+    display: block;
+    margin: 5px 0;
+}
+.bar input{
+    min-width: 90%;
+    font-size: 18pt;
+    border: none;
+    border-bottom: dotted 1px;
+    background: none;
+}
+.bar select{
+    margin: 10px 0;
+    font-size: 18pt;
+    min-width: 90%;
+    display: block;
+}
+
+.bar .button {
+    display: flex;
+    justify-content: space-around;
+}
+.button button{
+    margin: 10px;
+    font-size: 12pt;
+}

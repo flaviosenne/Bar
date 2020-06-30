@@ -1,0 +1,29 @@
+<div class="ingresso">
+    <form action="">
+        <label for=""> Nome </label>
+        <input name = 'nome'type="text" [(ngModel)] = 'ingresso.nome'placeholder="Digite o nome do cliente" >
+        
+        <label for=""> RG </label>
+        <input name = 'RG'type="text" [(ngModel)] = 'ingresso.RG'placeholder="Digite o RG do cliente">
+        
+        <label for=""> Vaga </label>
+        <input name = 'vaga'type="text" [(ngModel)] = 'ingresso.vaga'placeholder="Digite a quantidade de fichas">
+        
+        <label for=""> N° Vaga </label>
+        <input name = 'n_vaga'type="text" [(ngModel)] = 'ingresso.n_vaga'placeholder="Digite o valor do troco">
+        
+        <label for=""> Tipo de  Ingresso </label>
+        <select name="tipo_ingresso" id="" [(ngModel)] = 'ingresso.tipo_ingresso'>
+            <option value="">Tipo1</option>
+            <option value="">Tipo2</option>
+            <option value="">Tipo3</option>
+        </select>
+
+        <div class = 'button' >
+            <button> SALVAR</button>
+            <button> CANCELAR</button>
+
+        </div>
+
+    </form>
+</div>
